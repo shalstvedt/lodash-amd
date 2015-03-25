@@ -1,11 +1,14 @@
 {
-  "name": "lodash-amd",
+  "name": "lodash-amd-an",
   "version": "3.6.0",
   "description": "lodash module bundles for AMD.",
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
   "license": "MIT",
   "main": "modern/main.js",
+  "browserify": {
+      "transform": "deamdify"
+  },
   "author": "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
   "contributors": [
     "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
